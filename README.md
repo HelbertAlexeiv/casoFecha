@@ -1,3 +1,4 @@
+# Pautas
 - Toda clase hereda directa o inderectamente de la clase ***object***.
 - Los métodos de la clase object son comunes a todas las clases.
 - De object siempre heredamos los metodos ***toString*** e ***equals***.
