@@ -15,7 +15,7 @@ public class Fecha
         this.mes = mes;
         this.anio = anio;
     }
-
+    //Metodos de acceso
     public int getDia() {
         return dia;
     }
