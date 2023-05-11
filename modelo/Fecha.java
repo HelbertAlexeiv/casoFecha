@@ -25,6 +25,17 @@ public class Fecha
     public void setAnio(int anio) {
         this.anio = anio;
     }
+    //---Metodo toString
+    @Override
+    public String toString() {
+        return dia + "/" + mes + "/" + anio;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Fecha otra = (Fecha)obj;
+        return (dia == otra.getDia()) && (mes == otra.getMes()) && (anio == otra.getAnio());
+    }
 
 
     
